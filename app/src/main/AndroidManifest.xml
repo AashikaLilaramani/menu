@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menu">
         <activity
+            android:name=".About"
+            android:label="About"
+            android:parentActivityName=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Statistics"
+            android:label="Statistics"
+            android:parentActivityName=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
